@@ -1,0 +1,26 @@
+Practica 1
+
+En el initPhysics declaro un shape de esfera y un transform inicial,
+los cuales asigno al RenderItem "esfera".
+
+Practica 2
+
+He creado la clase Particle en RenderUtils.h, asignandole
+unos vectores de posicion velocidad y aceleracion, y un RenderItem.
+Amplio la clase Particle con el metodo integrate(), que modifica
+su posicion velocidad y aceleracion. Cambiando el vector de 
+velocidad de la esfera al crearla, y llamando al integrate de la
+Particle en el metodo del main "stepPhysics", consigo que la 
+esfera se mueva con velocidad constante.
+
+Practica 3
+
+Simplemente modifico el vector de aceleracion en la Particle "esfera"
+y esta coge una aceleracion constante.
+
+Practica 4
+
+He creado un metodo "shoot" que crea una particula al pulsar la B.
+La particula aparece en la posicion de la camara y tiene la misma
+direccion que esta gracias a los metodos GetCamera().getEye y
+GetCamera().getDir()

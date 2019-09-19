@@ -1,0 +1,424 @@
+﻿  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1373,1): warning C4626:  'std::_Basic_container_proxy_ptr12': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :  vea la referencia a la creación de instancias de clase plantilla "std::_String_val<std::_Simple_types<_Elem>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4423): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Elem>>,true>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :  vea la referencia a la creación de instancias de clase plantilla "std::_String_val<std::_Simple_types<_Elem>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4428): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<_Elem>>,true>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Elem=wchar_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :  vea la referencia a la creación de instancias de clase plantilla "std::_String_val<std::_Simple_types<_Elem>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4441): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_string<char16_t,std::char_traits<char16_t>,std::allocator<char16_t>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<_Elem>>,true>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Elem=char16_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :  vea la referencia a la creación de instancias de clase plantilla "std::_String_val<std::_Simple_types<_Elem>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2194): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4445): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_string<char32_t,std::char_traits<char32_t>,std::allocator<char32_t>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:  'std::_String_val<std::_Simple_types<_Elem>>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:  'std::_String_val<std::_Simple_types<_Elem>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2150,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<_Elem>>,true>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4104): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<_Elem>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(414,1): warning C4625:  'std::_Generic_error_category': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(414,1): warning C5026:  'std::_Generic_error_category': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(414,1): warning C4626:  'std::_Generic_error_category': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(414,1): warning C5027:  'std::_Generic_error_category': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(434,1): warning C4625:  'std::_Iostream_error_category': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(434,1): warning C5026:  'std::_Iostream_error_category': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(434,1): warning C4626:  'std::_Iostream_error_category': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(434,1): warning C5027:  'std::_Iostream_error_category': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(471,1): warning C4625:  'std::_System_error_category': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(471,1): warning C5026:  'std::_System_error_category': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(471,1): warning C4626:  'std::_System_error_category': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(471,1): warning C5027:  'std::_System_error_category': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(695,1): warning C4625:  'std::codecvt_base': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(695,1): warning C4626:  'std::codecvt_base': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(1175,1): warning C4625:  'std::codecvt<char16_t,char,mbstate_t>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(1175,1): warning C4626:  'std::codecvt<char16_t,char,mbstate_t>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(1410,1): warning C4625:  'std::codecvt<char32_t,char,mbstate_t>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(1410,1): warning C4626:  'std::codecvt<char32_t,char,mbstate_t>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2156,1): warning C4625:  'std::codecvt<wchar_t,char,mbstate_t>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2156,1): warning C4626:  'std::codecvt<wchar_t,char,mbstate_t>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2359,1): warning C4625:  'std::codecvt<unsigned short,char,mbstate_t>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2359,1): warning C4626:  'std::codecvt<unsigned short,char,mbstate_t>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2405,1): warning C4625:  'std::ctype_base': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2405,1): warning C4626:  'std::ctype_base': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2836,1): warning C4625:  'std::ctype<char>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(2836,1): warning C4626:  'std::ctype<char>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(3039,1): warning C4625:  'std::ctype<wchar_t>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(3039,1): warning C4626:  'std::ctype<wchar_t>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(3243,1): warning C4625:  'std::ctype<unsigned short>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(3243,1): warning C4626:  'std::ctype<unsigned short>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1404,1): warning C4625:  'std::_Container_proxy_ptr12<std::allocator<std::_Container_proxy>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2274): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Container_proxy_ptr12<std::allocator<std::_Container_proxy>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2271): message :  al compilar la función del miembro clase plantilla "std::basic_string<char32_t,std::char_traits<char32_t>,std::allocator<char32_t>>::basic_string(const _Elem *const ,const unsigned __int64)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2271): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2271): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2271): message :             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2271): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4447): message :  vea la referencia a la creación de instancias de plantilla de función "std::basic_string<char32_t,std::char_traits<char32_t>,std::allocator<char32_t>>::basic_string(const _Elem *const ,const unsigned __int64)" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4447): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4447): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4447): message :             _Elem=char32_t
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4447): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4445): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_string<char32_t,std::char_traits<char32_t>,std::allocator<char32_t>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1404,1): warning C4626:  'std::_Container_proxy_ptr12<std::allocator<std::_Container_proxy>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:  'std::num_put<_Elem,std::ostreambuf_iterator<_Elem,_Traits>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:             _Elem=char,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:             _Traits=std::char_traits<char>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :  vea la referencia a la creación de instancias de clase plantilla "std::num_put<_Elem,std::ostreambuf_iterator<_Elem,_Traits>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :             _Elem=char,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :             _Traits=std::char_traits<char>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(358): message :  al compilar la función del miembro clase plantilla "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Users\mxddx\Desktop\SIM\practica4\skeleton\main.cpp(87): message :  vea la referencia a la creación de instancias de plantilla de función "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)" que se está compilando
+C:\Users\mxddx\Desktop\SIM\practica4\skeleton\main.cpp(87): message :  vea la referencia a la creación de instancias de clase plantilla "std::basic_ostream<char,std::char_traits<char>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:  'std::num_put<_Elem,std::ostreambuf_iterator<_Elem,_Traits>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:             _Elem=char,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:             _Traits=std::char_traits<char>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1522,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1318,53): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1318,53): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1318,53): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,long double) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1304): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :  vea la referencia a la creación de instancias de clase plantilla "std::num_put<_Elem,std::ostreambuf_iterator<_Elem,_Traits>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :             _Elem=char,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :             _Traits=std::char_traits<char>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\ostream(358): message :  al compilar la función del miembro clase plantilla "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Users\mxddx\Desktop\SIM\practica4\skeleton\main.cpp(87): message :  vea la referencia a la creación de instancias de plantilla de función "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1298,53): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1298,53): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1298,53): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,double) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1284): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1280,74): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1280,74): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1280,74): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,unsigned __int64) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1276): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1272,74): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1272,74): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1272,74): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,__int64) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1268): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1264,74): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1264,74): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1264,74): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,unsigned long) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1260): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1256,74): warning C4774:  'sprintf_s' : la cadena de formato esperada en el argumento 3 no es un literal de cadena
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1256,74): message :  por ejemplo, en lugar de printf(name); utilice printf ("%s", name); porque los especificadores de formato en 'name' pueden suponer un problema de seguridad
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1256,74): message :  considere el uso del especificador constexpr para literales de cadena con nombre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,long) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1252): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4625:  'std::numpunct<_Elem>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4625:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1232): message :  vea la referencia a la creación de instancias de clase plantilla "std::numpunct<_Elem>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1232): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1232): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1232): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1232): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :  al compilar la función del miembro clase plantilla "_OutIt std::num_put<_Elem,_OutIt>::do_put(_OutIt,std::ios_base &,_Elem,bool) const"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :             _OutIt=std::ostreambuf_iterator<char,std::char_traits<char>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1225): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4626:  'std::numpunct<_Elem>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4626:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(237,1): warning C4626:         ]
+C:\Users\mxddx\Desktop\SIM\practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(293): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Users\mxddx\Desktop\SIM\practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(293): warning C5045: C:\Users\mxddx\Desktop\SIM\practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(293) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+C:\Users\mxddx\Desktop\SIM\practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(293): warning C5045: C:\Users\mxddx\Desktop\SIM\practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(293) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\streambuf(163): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\streambuf(163): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\streambuf(163) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\streambuf(163): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\streambuf(163) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(372): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(372): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(372) : nota: el intervalo "_Id" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(372): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(374) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(377): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(377): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(377) : nota: el intervalo "_Id" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(377): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocale(377) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1312): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1312): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1310) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1312): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1312) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1292): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1292): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1290) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1292): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1292) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1237): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1237): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1237) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1237): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1237) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3432): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3432): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3429) : nota: el intervalo "_Old_size" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3432): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3432) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3430): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3430): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3429) : nota: el intervalo "_Old_size" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3430): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3430) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1485): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1485): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1485) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1485): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1485) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1477): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1477): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1475) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1477): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1477) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1408): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1408): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1408) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1408): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1408) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1401): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1401): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1400) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1401): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xlocnum(1401) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2758): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2758): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2754) : nota: el intervalo "_Count" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2758): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2758) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2936): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2936): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2931) : nota: el intervalo "_Count" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2936): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2936) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4019): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4019): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4016) : nota: el intervalo "_Old_capacity" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4019): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(4019) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2813): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2813): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2809) : nota: el intervalo "_Count" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2813): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2813) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2836): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2836): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2832) : nota: el intervalo "_Count" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2836): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2836) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(172) : nota: el intervalo "_Bytes" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2732): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2732): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2728) : nota: el intervalo "_Count" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2732): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(2732) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3988): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3988): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3987) : nota: el intervalo "_Old_capacity" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3988): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3988) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3960): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3960): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3959) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3960): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3960) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3956): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3956): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3955) : nota: el intervalo "_Max" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3956): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xstring(3956) : nota: suministra la llamada en esta línea
+  game.vcxproj -> C:\Users\mxddx\Desktop\SIM\practica4\skeleton\../bin/practica1DEBUG.exe
