@@ -16,10 +16,12 @@ protected:
 	float speed;
 	float damping;
 	float inverse_mass;
+	float lifespan = 0;
 
 public:
 
 	Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, int type);
+	~Particle();
 
 	void integrate(float t);
 
@@ -28,6 +30,7 @@ public:
 	Vector3 getVelocity();
 	Vector3 getAcceleration();
 	float getDamping();
+	float getLifespan();
 
 	void setMass(float m);
 	void setPosition(Vector3 velo);

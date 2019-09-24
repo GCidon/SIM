@@ -34,12 +34,18 @@ Particle::Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, 
 	}
 }
 
+Particle::~Particle() {
+	delete transform;
+	item->release();
+}
+
 void Particle::integrate(float t) {
 	if (inverse_mass <= 0.0f) return;
 	p += v * speed * t;
 	v += a * t;
 	v *= powf(damping, t);
 	*transform = PxTransform(p);
+	lifespan += t;
 }
 
 float Particle::getMass() {
@@ -60,6 +66,10 @@ Vector3 Particle::getAcceleration() {
 
 float Particle::getDamping() {
 	return damping;
+}
+
+float Particle::getLifespan() {
+	return lifespan;
 }
 
 

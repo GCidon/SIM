@@ -88,6 +88,10 @@ void stepPhysics(bool interactive, double t)
 
 	for each (auto shot in projectiles) {
 		shot->integrate(t);
+		if (shot->getLifespan() >= 1) {
+			delete shot;
+			shot = nullptr;
+		}
 	}
 
 	gScene->simulate(t);

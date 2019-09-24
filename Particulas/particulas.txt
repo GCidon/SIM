@@ -24,3 +24,4 @@ He creado un metodo "shoot" que crea una particula al pulsar la B.
 La particula aparece en la posicion de la camara y tiene la misma
 direccion que esta gracias a los metodos GetCamera().getEye y
 GetCamera().getDir()
+Las particulas desaparecen en un tiempo determinado
