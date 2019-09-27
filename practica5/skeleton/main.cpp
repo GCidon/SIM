@@ -8,6 +8,7 @@
 #include "RenderUtils.hpp"
 #include "Particle.h"
 #include "callbacks.hpp"
+#include "Firework.h"
 #include <iostream>
 
 using namespace std;
@@ -30,12 +31,16 @@ PxScene*				gScene      = NULL;
 
 ////////////////////////////////////////////////////
 PxShape* esferaShape = NULL;
-Particle* esfera = NULL;
-PxTransform* transform = NULL;
+
+vector<Particle*> projectiles;
+vector<Firework*> fireworks;
 
 void shoot() {
-	esfera = new Particle(esferaShape, transform, GetCamera()->getEye(), 2);
-	esfera->setVelocity(GetCamera()->getDir() * 10);
+	Vector3 ini = Vector3(0.0, 50.0, 0.0);
+	PxTransform* transform = new PxTransform(ini);
+	Particle* esfera = new Particle(esferaShape, transform, GetCamera()->getEye(), 3);
+	esfera->setVelocity(GetCamera()->getDir());
+	projectiles.push_back(esfera);
 }
 ////////////////////////////////////////////////////
 
@@ -58,11 +63,7 @@ void initPhysics(bool interactive)
 
 	////////////////////////////////////////////////////
 
-	Vector3 ini = Vector3(0.0, 50.0, 0.0);
-	transform = new PxTransform(ini);
 	esferaShape = CreateShape(PxSphereGeometry(1));
-	esfera = new Particle(esferaShape, transform, GetCamera()->getEye(), 2);
-	
 
 	////////////////////////////////////////////////////
 
@@ -85,7 +86,13 @@ void stepPhysics(bool interactive, double t)
 {
 	PX_UNUSED(interactive);
 
-	esfera->integrate(t);
+	for each (auto shot in projectiles) {
+		shot->integrate(t);
+		if (shot->getLifespan() >= 1) {
+			delete shot;
+			shot = nullptr;
+		}
+	}
 
 	gScene->simulate(t);
 	gScene->fetchResults(true);
@@ -118,12 +125,12 @@ void keyPress(unsigned char key, const PxTransform& camera)
 	{
 	case 'B': 
 	{
-		shoot();
 		break;
 	}
 	//case ' ':	break;
 	case ' ':
 	{
+		shoot();
 		break;
 	}
 	default:

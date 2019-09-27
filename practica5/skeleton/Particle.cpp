@@ -5,6 +5,7 @@ Particle::Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, 
 	p = pos;
 	transform = transf;
 	item = new RenderItem(sh, transf, Vector4(255, 255, 0, 0));
+	speed = 100;
 	switch (type) {
 	case 0:
 		setMass(2.0f); // 2.0 Kg
@@ -33,32 +34,42 @@ Particle::Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, 
 	}
 }
 
+Particle::~Particle() {
+	delete transform;
+	item->release();
+}
+
 void Particle::integrate(float t) {
 	if (inverse_mass <= 0.0f) return;
 	p += v * t;
 	v += a * t;
 	v *= powf(damping, t);
 	*transform = PxTransform(p);
+	lifespan += t;
 }
 
-float Particle::getMass() {
+float Particle::getMass() const {
 	return 1 / inverse_mass;
 }
 
-Vector3 Particle::getPosition() {
+Vector3 Particle::getPosition() const {
 	return p;
 }
 
-Vector3 Particle::getVelocity() {
+Vector3 Particle::getVelocity() const {
 	return v;
 }
 
-Vector3 Particle::getAcceleration() {
+Vector3 Particle::getAcceleration() const {
 	return a;
 }
 
-float Particle::getDamping() {
+float Particle::getDamping() const {
 	return damping;
+}
+
+float Particle::getLifespan() const {
+	return lifespan;
 }
 
 
