@@ -1,7 +1,0 @@
-﻿main.obj : error LNK2005: "float __cdecl random(float,float)" (?random@@YAMMM@Z) already defined in Firework.obj
-main.obj : error LNK2005: "class physx::PxVec3 __cdecl random(class physx::PxVec3,class physx::PxVec3)" (?random@@YA?AVPxVec3@physx@@V12@0@Z) already defined in Firework.obj
-Particle.obj : error LNK2005: "float __cdecl random(float,float)" (?random@@YAMMM@Z) already defined in Firework.obj
-Particle.obj : error LNK2005: "class physx::PxVec3 __cdecl random(class physx::PxVec3,class physx::PxVec3)" (?random@@YA?AVPxVec3@physx@@V12@0@Z) already defined in Firework.obj
-RenderUtils.obj : error LNK2005: "float __cdecl random(float,float)" (?random@@YAMMM@Z) already defined in Firework.obj
-RenderUtils.obj : error LNK2005: "class physx::PxVec3 __cdecl random(class physx::PxVec3,class physx::PxVec3)" (?random@@YA?AVPxVec3@physx@@V12@0@Z) already defined in Firework.obj
-..\bin\practica1DEBUG.exe : fatal error LNK1169: one or more multiply defined symbols found

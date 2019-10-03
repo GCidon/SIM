@@ -1,0 +1,10 @@
+Practica 1
+
+Creo la clase Sistema, que a partir de un punto en el espacio
+crea Particles en direccion aleatoria vertical que desaparecen 
+en un tiempo determinado. El Sistema no tiene nada que deba ser
+eliminado de memoria
+
+Practica 2
+
+
