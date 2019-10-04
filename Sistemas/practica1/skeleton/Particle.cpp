@@ -5,7 +5,7 @@ Particle::Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, 
 	p = pos;
 	transform = transf;
 	item = new RenderItem(sh, transf, Vector4(255, 255, 0, 0));
-	speed = 100;
+	speed = 1;
 	switch (type) {
 	case 0:
 		setMass(2.0f); // 2.0 Kg

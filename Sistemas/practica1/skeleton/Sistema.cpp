@@ -15,17 +15,22 @@ void Sistema::update(float t) {
 		Vector3 ini = Vector3(0.0, 50.0, 0.0);
 		PxTransform* transform = new PxTransform(ini);
 		Particle* p = new Particle(pShape, transform, ini, 2);
-		p->setVelocity(Vector3(rand()%100 -1, 10.0, rand() % 100 - 1));
-		p->setAcceleration(Vector3(0.0, -1.0, 0.0));
+		p->setVelocity(Vector3(rand() % 100 - 1, 50.0, rand() % 100 - 1));
+		p->setAcceleration(Vector3(0.0, 0.0, 0.0));
 		particulas.push_back(p);
 		period = 0;
 	}
 
-	for each (auto shot in particulas) {
+
+	for each (auto shot in particulas)
+	{
 		shot->integrate(t);
-		if (shot->getLifespan() >= 10) {
+		if (shot->getLifespan() > 10) {
 			delete shot;
 			shot = nullptr;
 		}
+		cout << shot->getVelocity().x << " " << shot->getVelocity().y << " " << shot->getVelocity().z << "\n";
 	}
+	cout << "\n";
+	cout << "\n";
 }
