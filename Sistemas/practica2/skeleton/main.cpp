@@ -8,6 +8,7 @@
 #include "RenderUtils.hpp"
 #include "Particle.h"
 #include "Sistema.h"
+#include "Firework.h"
 #include "callbacks.hpp"
 #include <iostream>
 
@@ -31,16 +32,12 @@ PxScene*				gScene      = NULL;
 
 ////////////////////////////////////////////////////
 PxShape* esferaShape = NULL;
-
-Sistema* sis = NULL;
-vector<Particle*> projectiles;
+Firework* firework = NULL;
 
 void shoot() {
 	Vector3 ini = Vector3(0.0, 50.0, 0.0);
 	PxTransform* transform = new PxTransform(ini);
-	Particle* esfera = new Particle(esferaShape, transform, GetCamera()->getEye(), 3);
-	esfera->setVelocity(GetCamera()->getDir());
- 	projectiles.push_back(esfera);
+	firework = new Firework(esferaShape, transform, GetCamera()->getEye(), GetCamera()->getDir());
 }
 ////////////////////////////////////////////////////
 
@@ -66,7 +63,6 @@ void initPhysics(bool interactive)
 	
 	esferaShape = CreateShape(PxSphereGeometry(1));
 	PxTransform* tr = new PxTransform(Vector3(0.0, 50.0, 0.0));
-	sis = new Sistema(tr, Vector3(0.0, 50.0, 0.0), esferaShape);
 	
 
 	////////////////////////////////////////////////////
@@ -90,16 +86,13 @@ void stepPhysics(bool interactive, double t)
 {
 	PX_UNUSED(interactive);
 
-	for each (auto shot in projectiles) {
-		shot->integrate(t);
-		if (shot->getLifespan() >= 1) {
-			delete shot;
-			shot = nullptr;
+	if (firework != NULL) {
+		firework->integrate(t);
+		if (firework->getLifespan() > 4) {
+			delete firework;
+			firework = nullptr;
 		}
 	}
-
-	sis->update(t);
-
 
 	gScene->simulate(t);
 	gScene->fetchResults(true);

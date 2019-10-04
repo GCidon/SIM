@@ -29,8 +29,5 @@ void Sistema::update(float t) {
 			delete shot;
 			shot = nullptr;
 		}
-		cout << shot->getVelocity().x << " " << shot->getVelocity().y << " " << shot->getVelocity().z << "\n";
 	}
-	cout << "\n";
-	cout << "\n";
 }
