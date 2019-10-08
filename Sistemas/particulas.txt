@@ -7,4 +7,12 @@ eliminado de memoria
 
 Practica 2
 
+Creo la clase Firework a partir de Particle, que a su vez
+contiene un vector propio de particulas (las que suelta al
+explotar) Hay tres tipos diferentes de firework, con diferentes
+cantidades y direcciones, que se disparan en direccion de la
+camara con las teclas C, V y B
+Al explotar la particula principal, esta se elimina, pero aparecen
+nuevas particulas, que se eliminaran en un tiempo determinado
+
 

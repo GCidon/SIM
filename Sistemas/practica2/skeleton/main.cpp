@@ -34,10 +34,13 @@ PxScene*				gScene      = NULL;
 PxShape* esferaShape = NULL;
 Firework* firework = NULL;
 
-void shoot() {
+vector<Firework*> fireworks;
+
+void shoot(int type) {
 	Vector3 ini = Vector3(0.0, 50.0, 0.0);
 	PxTransform* transform = new PxTransform(ini);
-	firework = new Firework(esferaShape, transform, GetCamera()->getEye(), GetCamera()->getDir());
+	firework = new Firework(esferaShape, transform, GetCamera()->getEye(), GetCamera()->getDir()*10, type);
+	fireworks.push_back(firework);
 }
 ////////////////////////////////////////////////////
 
@@ -86,12 +89,8 @@ void stepPhysics(bool interactive, double t)
 {
 	PX_UNUSED(interactive);
 
-	if (firework != NULL) {
-		firework->integrate(t);
-		if (firework->getLifespan() > 4) {
-			delete firework;
-			firework = nullptr;
-		}
+	for each (auto fire in fireworks) {
+		fire->update(t);
 	}
 
 	gScene->simulate(t);
@@ -125,7 +124,17 @@ void keyPress(unsigned char key, const PxTransform& camera)
 	{
 	case 'B': 
 	{
-		shoot();
+		shoot(0);
+		break;
+	}
+	case 'V':
+	{
+		shoot(1);
+		break;
+	}
+	case 'C':
+	{
+		shoot(2);
 		break;
 	}
 	//case ' ':	break;

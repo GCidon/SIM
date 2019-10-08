@@ -1,7 +1,74 @@
 ﻿  Firework.cpp
-c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1451,1): warning C4626:  'std::_Basic_container_proxy_ptr12': assignment operator was implicitly defined as deleted
-U:\hlocal\SIM\Sistemas\practica2\skeleton\Firework.cpp(12,28): warning C4458:  declaration of 'transform' hides class member
-U:\hlocal\SIM\Sistemas\practica2\skeleton\Particle.h(12,15): message :  see declaration of 'Particle::transform'
-U:\hlocal\SIM\Sistemas\practica2\skeleton\Firework.cpp(13,17): warning C4458:  declaration of 'p' hides class member
-U:\hlocal\SIM\Sistemas\practica2\skeleton\Particle.h(13,10): message :  see declaration of 'Particle::p'
-  game.vcxproj -> U:\hlocal\SIM\Sistemas\practica2\skeleton\../bin/practica1DEBUG.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1373,1): warning C4626:  'std::_Basic_container_proxy_ptr12': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:  'std::_Vector_val<std::_Simple_types<_Ty>>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Vector_val<std::_Simple_types<_Ty>>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>" que se está compilando
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         ]
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.h(18): message :  vea la referencia a la creación de instancias de clase plantilla "std::vector<Particle *,std::allocator<_Ty>>" que se está compilando
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.h(18): message :         with
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.h(18): message :         [
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.h(18): message :             _Ty=Particle *
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.h(18): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:  'std::_Vector_val<std::_Simple_types<_Ty>>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:  'std::_Vector_val<std::_Simple_types<_Ty>>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:  'std::_Vector_val<std::_Simple_types<_Ty>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el constructor de copia se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el constructor de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el operador de asignaciones se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Ty=Particle *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(30,28): warning C4458:  la declaración de 'transform' oculta el miembro de clase
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Particle.h(12,15): message :  vea la declaración de 'Particle::transform'
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(31,17): warning C4458:  la declaración de 'p' oculta el miembro de clase
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Particle.h(13,10): message :  vea la declaración de 'Particle::p'
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(54): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(54): warning C5045: C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(53) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(54): warning C5045: C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(54) : nota: suministra la llamada en esta línea
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(48): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(48): warning C5045: C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(47) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(48): warning C5045: C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\Firework.cpp(48) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(172) : nota: el intervalo "_Bytes" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173) : nota: suministra la llamada en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1592): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1592): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1591) : nota: el intervalo "_Newsize" del índice se comprobó por comparación en esta línea
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1592): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1592) : nota: suministra la llamada en esta línea
+  game.vcxproj -> C:\Users\mxddx\Desktop\SIM\Sistemas\practica2\skeleton\../bin/practica1DEBUG.exe
