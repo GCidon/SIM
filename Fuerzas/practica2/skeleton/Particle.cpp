@@ -4,6 +4,7 @@ Particle::Particle(physx::PxShape* sh, physx::PxTransform* transf, Vector3 pos, 
 {
 	p = pos;
 	transform = transf;
+	force = Vector3(0.0, 0.0, 0.0);
 	item = new RenderItem(sh, transf, Vector4(255, 255, 0, 0));
 	speed = 100;
 	switch (type) {
@@ -52,7 +53,7 @@ void Particle::integrate(float t) {
 	p += v * speed * t;
 	Vector3 totalAcc = a;
 	totalAcc += force * inverse_mass;
-	v += totalAcc * t;
+	v += a * t + totalAcc * t;
 	v *= powf(damping, t);
 	*transform = PxTransform(p);
 	clearForce();

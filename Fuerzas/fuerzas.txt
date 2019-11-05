@@ -1,0 +1,25 @@
+Nota: se disparan particulas con la B
+
+Practica 1:
+
+Simplemente he cambiado la constructora del Sistema para
+que la fuerza de gravedad se le pase por parametro, con lo que se 
+pueden crear diferentes sistemas con diferentes gravedades en
+sus particulas
+
+Practica 2:
+
+Siguiendo las diapositivas, he creado los ParticleForceGenerators
+y los Registrys, asi tambien creando la clase ParticleGravity, que
+empuja las particulas que colisionen con ella hacia un lado.
+Simplemente detecta en el stepPhysics si cada particula existente 
+esta en su interior, y de ser asi, la añade al Registry, y de la 
+misma manera sale del Registry cuando detecta que no esta dentro.
+Tambien hay una clase Particle drag, pero no es funcional.
+
+Practica 3:
+
+Añado la clase ParticleExplosion, que en funcionamiento es 
+practicamente igual que ParticleGravity, pero la fuerza depende de
+la distancia de la particula a su centro. Con la tecla E, se detecta
+si hay particulas en su interior, y de ser asi, les aplica una fuerza.

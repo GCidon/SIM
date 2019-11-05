@@ -37,6 +37,7 @@ PxScene*				gScene      = NULL;
 PxShape* esferaShape = NULL;
 
 ParticleGravity* gen = NULL;
+ParticleForceRegistry* registry;
 
 vector<Particle*> projectiles;
 
@@ -72,7 +73,8 @@ void initPhysics(bool interactive)
 	esferaShape = CreateShape(PxSphereGeometry(1));
 	PxTransform* tr = new PxTransform(Vector3(75.0, 50.0, -50.0));
 
-	gen = new ParticleGravity(tr, Vector3(75.0, 50.0, -50.0), 50, 20);
+	gen = new ParticleGravity(tr, Vector3(75.0, 50.0, -50.0), 20, 20);
+	registry = new ParticleForceRegistry();
 	////////////////////////////////////////////////////
 
 	// For Solid Rigids +++++++++++++++++++++++++++++++++++++
@@ -96,12 +98,16 @@ void stepPhysics(bool interactive, double t)
 
 	for each (auto shot in projectiles) {
 		shot->integrate(t);
-		gen->detectParticle(shot);
-		if (shot->getLifespan() >= 3) {
+		if (gen->detectParticle(shot))
+			registry->add(shot, gen);
+		else registry->remove(shot, gen);
+		if (shot->getLifespan() >= 5) {
 			delete shot;
 			shot = nullptr;
 		}
 	}
+
+	registry->updateForces(t);
 
 	gScene->simulate(t);
 	gScene->fetchResults(true);
@@ -135,19 +141,6 @@ void keyPress(unsigned char key, const PxTransform& camera)
 	case 'B': 
 	{
 		shoot();
-		break;
-	}
-	case 'V':
-	{
-		break;
-	}
-	case 'C':
-	{
-		break;
-	}
-	//case ' ':	break;
-	case ' ':
-	{
 		break;
 	}
 	default:

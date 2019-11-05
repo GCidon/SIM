@@ -1,0 +1,21 @@
+Practica 1:
+
+Creo la clase ParticleSpring como aparece en las diapositivas,
+y coloco en la escena un cubo del que "cuelga" una esfera con un
+muelle. Con las teclas + y - aumenta y decrece respetivamente
+la constante k del spring.
+
+Practica 2:
+
+Simplemente cambio el cubo anterior por una esfera y añadiendo
+un nuevo spring que haga que actue la segunda esfera con la
+primera. Ademas, hago que una tenga gravedad positiva y la otra
+negativa.
+
+Practica 3:
+
+Siguiendo la estructura de la practica 1, trasteando con las 
+constantes del muelle y la posicion y masa de la esfera, se obtiene
+un comportamiento parecido al de una pelota flotando en el mar.
+Adicionalmente, se puede modificar la masa de la esfera con las
+letras Z y X.
