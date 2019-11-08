@@ -37,7 +37,6 @@ Particle* esfera = NULL;
 
 ParticleForceRegistry* registry = NULL;
 ParticleSpring* spring1 = NULL;
-ParticleSpring* spring2 = NULL;
 
 // Initialize physics engine
 void initPhysics(bool interactive)
@@ -127,13 +126,11 @@ void keyPress(unsigned char key, const PxTransform& camera)
 	case '+':
 	{
 		spring1->addK(1);
-		spring2->addK(1);
 		break;
 	}
 	case '-': 
 	{
 		spring1->addK(-1);
-		spring2->addK(-1);
 		break;
 	}
 	case ' ':

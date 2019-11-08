@@ -1,65 +1,65 @@
 ﻿  main.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1373,1): warning C4626:  'std::_Basic_container_proxy_ptr12': el operador de asignaciones se definió implícitamente como eliminado
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceGenerator.h(23,1): warning C4265:  'ParticleForceGenerator': la clase tiene funciones virtuales, pero el destructor no es virtual; puede que
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceGenerator.h(23,1): warning C4265:          instancias de esta clase no se destruyan correctamente
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:  'std::_Vector_val<std::_Simple_types<_Ty>>': el constructor de copia se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4625:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Vector_val<std::_Simple_types<_Ty>>" que se está compilando
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1425): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :  vea la referencia a la creación de instancias de clase plantilla "std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>" que se está compilando
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         ]
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :  vea la referencia a la creación de instancias de clase plantilla "std::vector<ParticleForceRegistry::ParticleForceRegistration,std::allocator<_Ty>>" que se está compilando
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         with
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         [
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:  'std::_Vector_val<std::_Simple_types<_Ty>>': el constructor de movimiento se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5026:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:  'std::_Vector_val<std::_Simple_types<_Ty>>': el operador de asignaciones se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C4626:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:  'std::_Vector_val<std::_Simple_types<_Ty>>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(320,1): warning C5027:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el constructor de copia se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4625:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el constructor de movimiento se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5026:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el operador de asignaciones se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C4626:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': el operador de asignaciones de movimiento se definió implícitamente como eliminado
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:             _Ty=ParticleForceRegistry::ParticleForceRegistration
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(1444,1): warning C5027:         ]
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265:  'ParticleSpring': la clase tiene funciones virtuales, pero el destructor no es virtual; puede que
-C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265:          instancias de esta clase no se destruyan correctamente
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045:  El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(172) : nota: el intervalo "_Bytes" del índice se comprobó por comparación en esta línea
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173): warning C5045: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xmemory(173) : nota: suministra la llamada en esta línea
-  game.vcxproj -> C:\Users\mxddx\Desktop\SIM\Muelles\practica 1\skeleton\../bin/gameDEBUG.exe
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1451,1): warning C4626:  'std::_Basic_container_proxy_ptr12': assignment operator was implicitly defined as deleted
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceGenerator.h(23,1): warning C4265:  'ParticleForceGenerator': class has virtual functions, but destructor is not virtual
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceGenerator.h(23,1): warning C4265:          instances of this class may not be destructed correctly
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4625:  'std::_Vector_val<std::_Simple_types<_Ty>>': copy constructor was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4625:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4625:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4625:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4625:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1505): message :  see reference to class template instantiation 'std::_Vector_val<std::_Simple_types<_Ty>>' being compiled
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1505): message :         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1505): message :         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1505): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1505): message :         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(1720): message :  see reference to class template instantiation 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' being compiled
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(1720): message :         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(1720): message :         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(1720): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(1720): message :         ]
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :  see reference to class template instantiation 'std::vector<ParticleForceRegistry::ParticleForceRegistration,std::allocator<_Ty>>' being compiled
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         with
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         [
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :             _Ty=ParticleForceRegistry::ParticleForceRegistration
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleForceRegistry.h(19): message :         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5026:  'std::_Vector_val<std::_Simple_types<_Ty>>': move constructor was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5026:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5026:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5026:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5026:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4626:  'std::_Vector_val<std::_Simple_types<_Ty>>': assignment operator was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4626:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4626:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4626:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C4626:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5027:  'std::_Vector_val<std::_Simple_types<_Ty>>': move assignment operator was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5027:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5027:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5027:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\vector(324,1): warning C5027:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4625:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': copy constructor was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4625:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4625:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4625:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4625:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5026:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': move constructor was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5026:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5026:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5026:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5026:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4626:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': assignment operator was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4626:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4626:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4626:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C4626:         ]
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5027:  'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>': move assignment operator was implicitly defined as deleted
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5027:         with
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5027:         [
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5027:             _Ty=ParticleForceRegistry::ParticleForceRegistration
+c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(1527,1): warning C5027:         ]
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265:  'ParticleSpring': class has virtual functions, but destructor is not virtual
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265:          instances of this class may not be destructed correctly
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265: c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(175) : warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265: c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(174) : note: index '_Bytes' range checked by comparison on this line
+U:\hlocal\SIM\Muelles\practica 1\skeleton\ParticleSpring.h(21,1): warning C4265: c:\software\programacion\MSVStudio2019\VC\Tools\MSVC\14.21.27702\include\xmemory0(175) : note: feeds call on this line
+  game.vcxproj -> U:\hlocal\SIM\Muelles\practica 1\skeleton\../bin/gameDEBUG.exe
